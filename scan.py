@@ -45,7 +45,7 @@ def main():
     print ("  {}[ 7 ] {}German").format(r,w)
     print ("  {}[ 8 ] {}Turkey").format(r,w)
     print ("  {}[ 9 ] {}Exit").format(r,w)
-    print ""
+    print ("")
     select = input("\033[1;31m[ \033[1;37mSelect@Number \033[1;31m]\033[1;37m> ")
     filtering(select)
 
